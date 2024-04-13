@@ -53,9 +53,8 @@ def train(data_group, file_name, train_dataset):
     crit_x_repeats = h_parameters['crit_x_repeats']
     crit_z_repeats = h_parameters['crit_z_repeats']
     batch_size = h_parameters['batch_size']
-    epochs = h_parameters['epochs']
-    # print(len(train_dataset))
-    # epochs = int(iterations / (len(train_dataset) / batch_size))
+    # epochs = h_parameters['epochs']
+    epochs = int(iterations / (len(train_dataset) / batch_size))
 
     start_time = datetime.datetime.now()
     netG = gmodel.Generator(z_dim=h_parameters['z_dim'], im_chan=h_parameters['im_chan'],

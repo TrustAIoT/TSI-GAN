@@ -179,9 +179,9 @@ signals = {
     "Anomaly_insectEPG": [
         '173_UCR_Anomaly_insectEPG1_3000_7000_7030',
         '174_UCR_Anomaly_insectEPG2_3700_8000_8025',
-            '175_UCR_Anomaly_insectEPG3_5200_7000_7050',
-            '176_UCR_Anomaly_insectEPG4_1300_6508_6558',
-            '177_UCR_Anomaly_insectEPG5_3200_8500_8501',
+        '175_UCR_Anomaly_insectEPG3_5200_7000_7050',
+        '176_UCR_Anomaly_insectEPG4_1300_6508_6558',
+        '177_UCR_Anomaly_insectEPG5_3200_8500_8501',
     ],
     "Anomaly_ltstdbs30791": [
         '178_UCR_Anomaly_ltstdbs30791AI_17555_52600_52800',
@@ -354,7 +354,7 @@ h_parameters = {
     'epochs': 5,
     'z_dim': 100,
     'im_chan': 2,
-    'window_size': 64,
+    'window_size': 64,  # do not change, not tunable
     'step_size': 1,
     'display_step': 10,
     'lr': 1e-4,
@@ -387,5 +387,3 @@ critic_x_cfg = {
     "out_channel": [48, 96, 192, 1]
 
 }
-
-
