@@ -23,6 +23,9 @@ Anomaly detection is widely used in network intrusion detection, autonomous driv
 ```
 <div align="center"> 
   <img src="https://github.com/user-attachments/assets/4251a6c4-2706-4a5d-9383-7c728288a346" alt="Architecture" width="500">
+  
+  TSI-GAN Architecture
+  
   <img src="https://github.com/user-attachments/assets/78515236-b6a6-46ef-bc1b-5b9b70a1c5d3" alt="Performance" width="800">
 </div>
 
